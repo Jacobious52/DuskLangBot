@@ -1,0 +1,81 @@
+{
+	"ImportPath": "github.com/Jacobious52/duskbot",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.11.0-25-g881bee4",
+			"Rev": "881bee4e20a5d11a6a88a5667c6f292072ac1963"
+		},
+		{
+			"ImportPath": "github.com/alecthomas/template",
+			"Rev": "a0175ee3bccc567396460bf5acd36800cb10c49c"
+		},
+		{
+			"ImportPath": "github.com/alecthomas/template/parse",
+			"Rev": "a0175ee3bccc567396460bf5acd36800cb10c49c"
+		},
+		{
+			"ImportPath": "github.com/alecthomas/units",
+			"Rev": "2efee857e7cfd4f3d0138cc3cbb1b4966962b93a"
+		},
+		{
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.8.0-11-g30136e2",
+			"Rev": "30136e27e2ac8d167177e8a583aa4c3fea5be833"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "9f7170bcd8e9f4d3691c06401119c46a769a1e03"
+		},
+		{
+			"ImportPath": "gopkg.in/alecthomas/kingpin.v2",
+			"Comment": "v2.2.6",
+			"Rev": "947dcec5ba9c011838740e680966fd7087a71d0d"
+		},
+		{
+			"ImportPath": "gopkg.in/tucnak/telebot.v2",
+			"Comment": "ver2.0-22-g2cebf54",
+			"Rev": "2cebf54e145e9a5733e1220ddce94e338b4f90ef"
+		},
+		{
+			"ImportPath": "jacob/dusk/pkg/ast",
+			"Comment": "v0.1-alpha-linux-amd64-14-g78533f1",
+			"Rev": "78533f1858bd30a0ec59f53e2c7fd73aa857de76"
+		},
+		{
+			"ImportPath": "jacob/dusk/pkg/eval",
+			"Comment": "v0.1-alpha-linux-amd64-14-g78533f1",
+			"Rev": "78533f1858bd30a0ec59f53e2c7fd73aa857de76"
+		},
+		{
+			"ImportPath": "jacob/dusk/pkg/lexer",
+			"Comment": "v0.1-alpha-linux-amd64-14-g78533f1",
+			"Rev": "78533f1858bd30a0ec59f53e2c7fd73aa857de76"
+		},
+		{
+			"ImportPath": "jacob/dusk/pkg/object",
+			"Comment": "v0.1-alpha-linux-amd64-14-g78533f1",
+			"Rev": "78533f1858bd30a0ec59f53e2c7fd73aa857de76"
+		},
+		{
+			"ImportPath": "jacob/dusk/pkg/parser",
+			"Comment": "v0.1-alpha-linux-amd64-14-g78533f1",
+			"Rev": "78533f1858bd30a0ec59f53e2c7fd73aa857de76"
+		},
+		{
+			"ImportPath": "jacob/dusk/pkg/run",
+			"Comment": "v0.1-alpha-linux-amd64-14-g78533f1",
+			"Rev": "78533f1858bd30a0ec59f53e2c7fd73aa857de76"
+		},
+		{
+			"ImportPath": "jacob/dusk/pkg/token",
+			"Comment": "v0.1-alpha-linux-amd64-14-g78533f1",
+			"Rev": "78533f1858bd30a0ec59f53e2c7fd73aa857de76"
+		}
+	]
+}

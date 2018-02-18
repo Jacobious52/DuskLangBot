@@ -1,0 +1,27 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: duskbot
+  labels:
+    app: duskbot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: duskbot
+  template:
+    metadata:
+      labels:
+        app: duskbot
+    spec:
+      containers:
+      - name: duskbot
+        imagePullPolicy: "Always"
+        image: jacobious/deployments:duskbot
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "50m"
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
